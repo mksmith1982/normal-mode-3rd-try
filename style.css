@@ -28,14 +28,21 @@ img{float: left;}
 
 
 
-#middle{height: 300px;
+#middle{height: 330px;
         width: 300px;
         display: inline-block;
         background-color: rgb(247,247,247);
-        border: 1px solid lightgrey;
+        border-style: solid;
+        border-color: rgb(238,238,238);
+        border:12px;
         margin:5px;
         }
 .middle{padding: 0}
+
+.below{border-color: red;
+      border-style: solid;
+      border-width: 3px;
+      margin-top:-16px;}
 
 
 #color1{background-color: rgb(40,153,82);margin: 0;}
@@ -61,6 +68,8 @@ img{float: left;}
 
 
     .content{padding:10px;
-            border-color: rgb(247,247,237);
-            border:1px solid;}
+            
+            border-width:1px:; 
+            border-style:solid;
+            border-color: blue;}
 
