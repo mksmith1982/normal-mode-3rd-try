@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"image",
+				"imagecontainer"
+			],
+			[
+				"middlecont",
+				"middlecontent"
+			],
+			[
+				"middle",
+				"middleofcolumncontainer"
+			],
+			[
+				"p",
+				"pricing"
+			],
+			[
 				"wid",
 				"width"
 			],
@@ -103,33 +119,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 649,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 100,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "normalize.css",
-			"settings":
-			{
-				"buffer_size": 99700,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -171,6 +160,10 @@
 	},
 	"file_history":
 	[
+		"/Users/MattSmith/Documents/projects/Week2/index.html",
+		"/Users/MattSmith/Documents/projects/week1/normal-mode3.0/index.html",
+		"/Users/MattSmith/Documents/projects/week1/normal-mode3.0/proto.html",
+		"/Users/MattSmith/Documents/projects/week1/normal-mode3.0/normalize.css",
 		"/Users/MattSmith/Documents/projects/week1/normal2/style.css",
 		"/Users/MattSmith/Documents/projects/week1/normal2/index.html",
 		"/Users/MattSmith/Documents/projects/week1/normal-mode/normal-mode.html",
@@ -193,7 +186,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -207,6 +200,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</div>",
 			"border:solid"
 		],
 		"highlight": true,
@@ -225,97 +219,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149,
-								149
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 100,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								100,
-								100
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "normalize.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 99700,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

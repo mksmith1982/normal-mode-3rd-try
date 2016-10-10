@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 ul{list-style: none;}
 
 
@@ -12,143 +14,116 @@ ul{list-style: none;}
 }
 
 .imagecontainer{height: 329px;
-    width: 1107px;
+    width: 1100px;
     padding: 0px;
     padding-left: 0;
-    margin: 1px;
-    margin-left: -8px;
+    margin: 0px;
+    margin-left: -4px;
     position: relative;
 }
 
-.text1{ position: absolute;
-    top: 80px;
-    right: 427px;
-    display: inline-block;
-    font-family: sans-serif;
-    font-size: 39px;
-        color: white;
-}
-.text2{ position: absolute;
-    top: 125px;
-    right: 388px;
-    display: inline-block;
-    font-family: sans-serif;
-    font-size: 40px;
-        color: white;
-}
-
-.column{margin-left: 0;
-      display: inline-block;
-      background: rgb(247,247,247);
-}
-
-
-.topcontainer{}
-
-.Personal{background-color: rgb(40,153,82);
-margin-top:0;}
-
-.Business{background-color: rgb(43,65,131);
-margin-top:0;}
-
-.Enterprise{background-color:rgb(17,17,17);
-margin-top:0;}
-.columncontent{border-color: lightgrey;
-    border-color: lightgrey;
-    border-style: solid;
-    border-width: 2px;
-    margin: 7px;
-    margin-left: -40px;
-} }
-.middlecontainer{}
-
-.myButton{}
-
-.bottomcontainer1{}
-.bottomcontainer2{}
-
-.paragraph1{display: inline-block;}
-
-.paragraph2{display: inline-block;}
-
-.paragraph3{display: inline-block;}
-
-.paragraph4{display: inline-block;}
-
-.span{
-    width: 400px;
-    display: list-item}
-
-
-.footer{}
+        .text1{ position: absolute;
+            top: 80px;
+            right: 427px;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 39px;
+                color: white;
+        }
+        .text2{ position: absolute;
+            top: 125px;
+            right: 388px;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 40px;
+                color: white;
+        }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.columncontainer{background:blue;
+#columncontainer{background-color: yellow;
+height:500px;
+width:1100px;
+margin:-9px;
+display: block;
+margin-top:10px;
 }
 
 
+            .Personal{background-color: rgb(40,153,82);
+            margin-top:0;}
+
+            .Business{background-color: rgb(43,65,131);
+            margin-top:0;}
+
+            .Enterprise{background-color:rgb(17,17,17);
+            margin-top:0;}
+            .columncontent{border-color: lightgrey;
+                border-color: lightgrey;
+                border-style: solid;
+                border-width: 2px;
+                margin: 7px;
+                margin-left: -40px; }
+            .middlecontainer{}
+
+            .myButton{}
 
 
 
+#bottomcontainer{height:600px;
+                width: 1100px;
+                position: absolute;
+                display: inline;
+                background: lightblue;}
+                    .bottomcontainer1{height: 450px;
+                                        width: 540px;
+                                        background-color: purple;
+                                        position: absolute;
+                                        left: 8px;
+                                        top:-500px;}
+
+                    .bottomcontainer2{height:450px;
+                                        width:540px;
+                                        background-color: black;
+                                        position: absolute;
+                                        top: -500px;
+    									right: 8px;
+										}
 
 
+					.bottomcontainer3{height: 450px;
+                                        width: 540px;
+                                        background-color: purple;
+                                        position: absolute;
+                                        left: 8px;
+                                        top:0px;}
+
+                    .bottomcontainer4{height:450px;
+                                        width:540px;
+                                        background-color: black;
+                                        position: absolute;
+                                        top: 0px;
+    									right: 8px;
+										}
+
+                    .paragraph1{display: inline-block;}
+
+                    .paragraph2{display: inline-block;}
+
+                    .paragraph3{display: inline-block;}
+
+                    .paragraph4{display: inline-block;}
+
+                    //*.span{
+                        width: 400px;
+                        display: list-item}*//
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<footer>{height:30px;
+background-color: red;
+position: absolute;
+bottom:7px;}
 
 
 
