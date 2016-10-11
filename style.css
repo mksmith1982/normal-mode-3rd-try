@@ -3,7 +3,8 @@
 *{box-sizing: border-box;
 font-family: 'Open Sans', sans-serif;}
 
-ul{list-style: none;}
+ul{list-style: none;
+margin:0;}
 
 
 .navbar{color: grey;
@@ -52,7 +53,7 @@ margin:-9px;
 display: block;
 margin-top:10px;
 }
-
+    .content{margin=0px;}      
 
     .column1{height: 300px;
     width: 18%;
